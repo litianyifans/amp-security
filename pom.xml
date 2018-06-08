@@ -13,6 +13,7 @@
         <module>amp-core</module>
         <module>amp-demo</module>
         <module>amp-web</module>
+        <module>amp-app</module>
     </modules>
 
 
@@ -46,6 +47,12 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>${spring-boot-version}</version>
+            </dependency>
+            <!--SpringSecurityOAuth2 -->
+            <dependency>
+                <groupId>org.springframework.security.oauth</groupId>
+                <artifactId>spring-security-oauth2</artifactId>
+                <version>2.0.13.RELEASE</version>
             </dependency>
 
             <!--SpringBootTest -->
@@ -136,6 +143,11 @@
             <dependency>
                 <groupId>com.shamrock</groupId>
                 <artifactId>amp-web</artifactId>
+                <version>${amp-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.shamrock</groupId>
+                <artifactId>amp-app</artifactId>
                 <version>${amp-version}</version>
             </dependency>
         </dependencies>

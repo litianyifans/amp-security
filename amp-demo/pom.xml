@@ -18,20 +18,24 @@
 
     <dependencies>
 
-        <dependency>
+  <!--      <dependency>
             <groupId>com.shamrock</groupId>
             <artifactId>amp-web</artifactId>
-        </dependency>
+        </dependency>-->
 
+        <dependency>
+            <groupId>com.shamrock</groupId>
+            <artifactId>amp-app</artifactId>
+        </dependency>
         <!-- 构建成可运行的Web项目 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!-- springboot-test-->
         <dependency>

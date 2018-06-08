@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/amp-app" />
     <file type="web" url="file://$PROJECT_DIR$/amp-core" />
     <file type="web" url="file://$PROJECT_DIR$/amp-demo" />
     <file type="web" url="file://$PROJECT_DIR$/amp-web" />
